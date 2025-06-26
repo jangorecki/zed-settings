@@ -1,0 +1,102 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  // disable AI
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  // disable ligatures
+  "buffer_font_features": {
+    "calt": false
+  },
+  // disable ligatures
+  "ui_font_features": {
+    "calt": false
+  },
+  // hide sign in
+  "title_bar": {
+    "show_sign_in": false
+  },
+  // hide collaboration panel
+  "collaboration_panel": {
+    "button": false
+  },
+  // hide chat panel
+  "chat_panel": {
+    "button": "never"
+  },
+  // disable auto emoji in git commit messages
+  "message_editor": {
+    "auto_replace_emoji_shortcode": false
+  },
+  // hide notification panel
+  "notification_panel": {
+    "button": false
+  },
+  // disable AI again
+  "agent": {
+    "enabled": false,
+    "version": "2"
+  },
+  "remove_trailing_whitespace_on_save": false,
+  "extend_comment_on_newline": false,
+  "ensure_final_newline_on_save": false,
+  "format_on_save": "off",
+  "tab_size": 2,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  // disable audo update
+  "auto_update": false,
+  // remove redundant terminal title
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+  // disable tasks
+  "tasks": {
+    "enabled": false
+  },
+  // map file types
+  "file_types": {
+    "Markdown": ["Rmd"],
+    "R": ["Rraw",".Rprofile"]
+  },
+  // disable AI again
+  "language_models": {
+    "anthropic": {
+      "version": "1",
+      "api_url": ""
+    },
+    "google": {
+      "api_url": ""
+    },
+    "ollama": {
+      "api_url": ""
+    },
+    "openai": {
+      "version": "1",
+      "api_url": ""
+    },
+    "open_router": {
+      "api_url": ""
+    },
+    "lmstudio": {
+      "api_url": ""
+    },
+    "deepseek": {
+      "api_url": ""
+    },
+    "mistral": {
+      "api_url": ""
+    }
+  }
+}
