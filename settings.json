@@ -48,6 +48,7 @@
   "extend_comment_on_newline": false,
   "ensure_final_newline_on_save": false,
   "format_on_save": "off",
+  "formatter": null,
   "tab_size": 2,
   "telemetry": {
     "diagnostics": false,
