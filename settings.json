@@ -49,6 +49,8 @@
   "ensure_final_newline_on_save": false,
   "format_on_save": "off",
   "formatter": null,
+  "enable_snippets": false,
+  "use_on_type_format": false,
   "tab_size": 2,
   "telemetry": {
     "diagnostics": false,
